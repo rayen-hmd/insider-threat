@@ -7,7 +7,7 @@ st.set_page_config(
 # -----------------------------
 # 1️⃣ Lecture du fichier Excel (CACHÉE)
 # -----------------------------
-fichier = r"C:\Users\wiki\Desktop\Orion\datatime.xlsx"
+fichier = "datatime.xlsx"
 df = pd.read_excel(fichier)
 
 # 4ème colonne : Heure de sortie
@@ -69,6 +69,7 @@ if st.button("Tester mon code"):
     except Exception as e:
         st.error("❌ Erreur dans votre code")
         st.code(e)
+
 
 
 
