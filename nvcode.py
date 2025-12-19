@@ -124,7 +124,7 @@ if st.session_state.etape >= 1:
     """, unsafe_allow_html=True)
 
     st.image(
-        "C:/Users/wiki/Desktop/Orion/avant.png",
+        "avant.png",
         caption="Image issue des caméras de surveillance"
     )
 
@@ -148,7 +148,7 @@ if st.session_state.etape >= 1:
 # ---------- ÉTAPE 2 ----------
 if st.session_state.etape >= 2:
     st.image(
-        "C:/Users/wiki/Desktop/Orion/apres.png",
+        "apres.png",
         caption="Image restaurée finale"
     )
     st.markdown("""
@@ -161,3 +161,4 @@ entrant dans l’entreprise après 22h.<br><br>
     Pour le trouver, passez à l'étape 4 dans les pages de navigation.
     </div>
     """, unsafe_allow_html=True)
+
